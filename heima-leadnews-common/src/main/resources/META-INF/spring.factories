@@ -1,2 +1,4 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-  com.heima.user.common.exception.ExceptionCatch
+  com.heima.common.exception.ExceptionCatch,\
+  com.heima.common.swager.Swagger2Configuration,\
+  com.heima.common.swager.SwaggerConfiguration

@@ -28,8 +28,8 @@ public class ArticleHomeController {
      * @param  dto
      * @return
      */
-    @PostMapping("/load")
-    public ResponseResult load(@RequestBody ArticleHomeDto dto){
+    @PostMapping("/loadmore")
+    public ResponseResult loadmore(@RequestBody ArticleHomeDto dto){
         return null;
 
     }
@@ -38,8 +38,8 @@ public class ArticleHomeController {
      * @param  dto
      * @return
      */
-    @PostMapping("/load")
-    public ResponseResult load(@RequestBody ArticleHomeDto dto){
+    @PostMapping("/loadnew")
+    public ResponseResult loadnew(@RequestBody ArticleHomeDto dto){
         return null;
 
     }
